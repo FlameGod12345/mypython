@@ -1,0 +1,42 @@
+import time
+a = input('Введите уровень проверки (easy, middle, hard): ')
+b = input('Введите время для таймера (в секундах): ')
+if a == 'easy':
+    a_tr = {'apple': 'яблоко', 'home': 'дом', 'table': 'стол'}
+    print('apple: ')
+    time.sleep(int(b))
+    print(a_tr['apple'])
+    time.sleep(int(b))
+    print('home: ')
+    time.sleep(int(b))
+    print(a_tr['home'])
+    time.sleep(int(b))
+    print('table: ')
+    time.sleep(int(b))
+    print(a_tr['table'])
+elif a == 'middle':
+    a_tr = {'sword': 'меч', 'sofa': 'диван', 'kingdoom': 'замок'}
+    print('sword: ')
+    time.sleep(int(b))
+    print(a_tr['sword'])
+    time.sleep(int(b))
+    print('sofa: ')
+    time.sleep(int(b))
+    print(a_tr['sofa'])
+    time.sleep(int(b))
+    print('kingdoom: ')
+    time.sleep(int(b))
+    print(a_tr['kingdoom'])
+else:
+    a_tr = {'futility': 'бесполезность', 'spring': 'пружина', 'fool': 'дурак'}
+    print('futility: ')
+    time.sleep(int(b))
+    print(a_tr['futility'])
+    time.sleep(int(b))
+    print('spring: ')
+    time.sleep(int(b))
+    print(a_tr['spring'])
+    time.sleep(int(b))
+    print('fool: ')
+    time.sleep(int(b))
+    print(a_tr['fool'])

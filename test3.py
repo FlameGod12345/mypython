@@ -1,0 +1,5 @@
+a = input()
+b = a.find('bb')
+c = a.count('bb')
+print(b)
+print(c)
